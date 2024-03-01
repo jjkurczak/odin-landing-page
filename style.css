@@ -1,0 +1,171 @@
+body {
+	/* background-color: #1F2937; */
+	background-color: #F9FAF8;
+	font-family: "Roboto", sans-serif;
+	/* padding: 0px 10vw; */
+	margin: 0;
+	color: #1F2937;
+}
+
+a {
+	text-decoration: none;
+	color: #f9faf8ce;
+}
+
+.nav-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 16px;
+	font-size: 18px;
+}
+  
+
+.header, .promo-section {
+	background-color: #1F2937;
+	color: #F9FAF8;
+	padding: 24px 200px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	/* padding: 16px 0px; */
+}
+
+
+
+.header-logo {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+
+.promo-section {
+	display: flex;
+	/* padding: 64px 0px; */
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 16px;
+	padding-top: 96px;
+	padding-bottom: 128px;
+}
+
+.promo-section h1 {
+	font-size: 48px;
+	font-weight: 900;
+	margin: 0;
+}
+
+.promo-section p {
+	color: #f9faf8ce;
+	font-size: 20px;
+	margin: 8px 0px;
+}
+
+.half-section {
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.fake-image {
+	background-color: rgb(90, 97, 106);
+	width: 520px;
+	height: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.call-to-action-button {
+	color: #F9FAF8;
+	background-color: #3882F6;
+	text-align: center;
+	padding: 4px 24px;
+	border-radius: 8px;
+	border: 0px;
+	font-size: 18px;
+	width: 140px;
+	height: 40px;
+	font-weight: 900;
+}
+
+.call-to-action-section button {
+	border: 2px solid #F9FAF8;
+}
+
+.cards-section {
+	background-color: #F9FAF8;
+}
+
+.cards-section h1 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 48px 0px;
+
+}
+
+.card-list {
+	display: flex;
+	justify-content: center;
+	gap: 56px;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 162px;
+}
+
+.card-image {
+	border: solid 4px #3882F6;
+	width: 162px;
+	height: 162px;
+	border-radius: 16px;
+}
+
+.card p {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.quote-section {
+	background-color: #E5E7EB;
+	padding: 64px 340px;
+}
+
+.quote-main {
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote-source {
+	font-weight: 900;
+	text-align: right;
+	font-size: 22px;
+}
+
+.call-to-action-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3882F6;
+	color: #F9FAF8;
+	border-radius: 8px;
+	margin: 64px 200px;
+	padding: 16px 128px;
+}
+
+.call-to-action-section h1 {
+	margin-bottom: 0;
+	font-size: 22px;
+}
+
+.call-to-action-section p {
+	margin-top: 8px;
+	font-size: 18px;
+}
